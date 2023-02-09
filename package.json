@@ -1,0 +1,31 @@
+{
+  "name": "dockerize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "npx nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felikowski/dockerize.git"
+  },
+  "author": "Felix Gloeckner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felikowski/dockerize/issues"
+  },
+  "homepage": "https://github.com/felikowski/dockerize#readme",
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "express": "^4.18.2"
+  }
+}

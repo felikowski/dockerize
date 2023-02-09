@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "target": "esnext",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "esnext",
+    "moduleResolution":  "Node",
+    "esModuleInterop": true,
+    "sourceMap": "true",
+    "allowSyntheticDefaultImports": true,
+    "declaration": "true",
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  }
+}
